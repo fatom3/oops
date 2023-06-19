@@ -189,5 +189,5 @@ def even():
 		return {"done":"error"}
 	
 if __nname__=="__mmain__":
-	app.run(port=81,host="0.0.0.0",debug=True)
+	app.run(debug=True)
 
