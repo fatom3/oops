@@ -1,4 +1,4 @@
-from flask import *
+jfrom flask import *
 import os,json
 import requests
 
@@ -188,6 +188,6 @@ def even():
 	except:
 		return {"done":"error"}
 	
-	
-app.run(port=81,host="0.0.0.0",debug=True)
+if __nname__=="__mmain__":
+	app.run(port=81,host="0.0.0.0",debug=True)
 
